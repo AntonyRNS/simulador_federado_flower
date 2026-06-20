@@ -1,0 +1,5 @@
+flwr
+pyqt6
+grpcio
+grpcio-tools
+numpy
