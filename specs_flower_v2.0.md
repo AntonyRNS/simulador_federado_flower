@@ -106,3 +106,6 @@ Status das sprints de desenvolvimento e entregas (v2.0):
 ## Fase 4: Próximos Passos (Próximas Versões)
 
 * **Treinamento Real com CNN e TensorFlow:** Substituir o cliente de simulação (`SimulatedNumPyClient`) por uma versão real usando TensorFlow/Keras para ler dados de imagens locais, treinar uma arquitetura CNN localmente, transferir os parâmetros e agregar as métricas de forma real no servidor.
+  * **[x] Subtarefa 1:** Definir a arquitetura da CNN e lógica de carregamento do dataset em [model.py](file:///c:/Users/Antony/Desktop/simulador_federado_flower/model.py).
+  * **[ ] Subtarefa 2:** Integrar o modelo no cliente e servidor reais.
+
