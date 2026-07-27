@@ -41,7 +41,7 @@ def save_images_to_folders(x, y, base_dir, max_images_per_client=500):
         if count >= max_images_per_client:
             break
             
-        label = class_names[int(label_idx)]
+        label = class_names[int(label_idx[0])]
         img = Image.fromarray(img_array)
         img_path = os.path.join(base_dir, label, f"img_{idx}.png")
         img.save(img_path)
